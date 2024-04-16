@@ -13,5 +13,8 @@ public record UserDTO(
     BigDecimal balance,
     UserType userType
 ) {
-    
-}
+
+    public UserDTO(String string, String string2, String document2, BigDecimal bigDecimal, String string3,
+            String string4, UserType common) {
+                this(string, string2, string3, string4, document2, bigDecimal, common);
+    }}
